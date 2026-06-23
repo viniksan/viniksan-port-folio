@@ -411,19 +411,14 @@ elif selected == "Contact":
     )
 
     st.link_button(
-        "💻 GitHub Profile",
-        "https://github.com/viniksan"
-    )
+    "💻 GitHub Profile",
+    "https://github.com/viniksan"
+)
 
-    if os.path.exists("resume.pdf"):
-
-        with open("resume.pdf", "rb") as pdf:
-
-            st.download_button(
-                "📄 Download Resume",
-                pdf,
-                file_name="Viniksan_Resume.pdf"
-            )
+st.link_button(
+    "📄 View Resume",
+    "https://drive.google.com/file/d/1wfddszzt5qmgihf__8ePe41s586mgY7G/view"
+)
 
 st.markdown("---")
 st.caption("© 2026 Viniksan S | AI & Machine Learning Portfolio")
